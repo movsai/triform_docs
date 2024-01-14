@@ -1,3 +1,14 @@
+# Environment Variables in Triform
+
+Environment variables in Triform allow you to manage configuration settings securely and flexibly. This guide covers how to create, use, and manage your environment variables.
+
+## Contents
+- [Understanding Environment Variables](#understanding-environment-variables)
+- [Creating Environment Variables](#creating-environment-variables)
+- [Using Environment Variables in Your Scripts](#using-environment-variables-in-your-scripts)
+- [Managing Existing Variables](#managing-existing-variables)
+- [Best Practices for Environment Variables](#best-practices-for-environment-variables)
+
 ## Understanding Environment Variables
 
 Environment variables are key-value pairs stored outside your scripts, making it easier to manage settings that can change based on the environment (like API keys, database URLs, etc.).
@@ -22,11 +33,8 @@ You can access these variables in your Python scripts, which is especially usefu
 
 ### Accessing Variables in Python:
 
-```python
-import os
-
-# Example of accessing an environment variable
 api_key = os.environ.get('API_KEY')
+
 
 ## Managing Existing Variables
 
