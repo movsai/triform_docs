@@ -21,8 +21,8 @@ Welcome to the official documentation of Triform. Here, you'll find comprehensiv
 :hidden:
 getting_started
 account_management
-working_with_modules
-creating_and_managing_flows
+modules
+flows
 api_integration
 team_collaboration
 environment_variables
